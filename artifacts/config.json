@@ -1,0 +1,36 @@
+{
+  "MAX_SEQUENCE_LENGTH_ORIG": 50,
+  "MAX_SEQUENCE_LENGTH_IMPROVED": 100,
+  "GLOVE_DIM": 100,
+  "W2V_DIM": 300,
+  "MAX_VOCAB": 10000,
+  "vocab_size": 2309,
+  "glove_coverage_pct": 98.79,
+  "word2vec_coverage_pct": 94.8,
+  "models": {
+    "glove_original": {
+      "file": "glove_original.keras",
+      "maxlen": 50,
+      "embedding": "GloVe 100d",
+      "arch": "Original CNN"
+    },
+    "glove_improved": {
+      "file": "glove_improved.keras",
+      "maxlen": 100,
+      "embedding": "GloVe 100d",
+      "arch": "Improved CNN"
+    },
+    "word2vec_original": {
+      "file": "word2vec_original.keras",
+      "maxlen": 50,
+      "embedding": "Word2Vec 300d",
+      "arch": "Original CNN"
+    },
+    "word2vec_improved": {
+      "file": "word2vec_improved.keras",
+      "maxlen": 100,
+      "embedding": "Word2Vec 300d",
+      "arch": "Improved CNN"
+    }
+  }
+}
