@@ -1,0 +1,15 @@
+{
+  "MAX_SEQUENCE_LENGTH_ORIG": 50,
+  "MAX_SEQUENCE_LENGTH_IMPROVED": 100,
+  "MAX_VOCAB": 10000,
+  "available_modes": [
+    "scratch",
+    "glove",
+    "word2vec"
+  ],
+  "embedding_dims": {
+    "scratch": 100,
+    "glove": 100,
+    "word2vec": 300
+  }
+}
