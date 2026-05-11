@@ -1,5 +1,0 @@
-streamlit
-tensorflow-cpu==2.18.1
-numpy<2
-pandas
-scikit-learn
